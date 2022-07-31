@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    color: #380B61;
+    background-color: #F0F8FF;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+header h1, p{
+    line-height: 25px;
+}
+form{
+    height: 500px;
+    width: 485px;
+    margin: 10px auto 30px 400px;
+    font-size: 18px;
+    align-items: center;
+}
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+fieldset .campo{
+    display: inline-block;
+    margin-right: 10px;
+}
+fieldset .campo label{
+    display: block;
+    /* font-weight: 200; */
+}
+fieldset .campo input[type="text"]{
+    border-radius: 5px;
+    border: 1px solid #380B61;
+}
+.campo label{
+    display: block;
+}
+.campo{
+    margin: 10px 0px;
+}
+.campo input[type="email"]{
+    border-radius: 5px;
+    border: 1px solid #380B61;
+}
+select{
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #380B61;
+}
+textarea{
+    border: 1px solid #380B61;
+    border-radius: 5px;
+}
+input[type="text"], input[type="email"], textarea, select{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type="text"], input[type="email"],select{
+    padding: 4px;
+}
+#btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    width: 120px;
+    background-color: #59429d;
+    color: white;
+    font-size: 19px;
+    font-family: Arial;
+    margin: 20px auto;
+}
+#btn:hover{
+    background-color: #ccbbff;
+    transition: 0.3s;
+}
+#nome:focus, #sobrenome:focus, #email:focus, #exp:focus, select:focus{
+    background-color: #ccbbff;
+}
+
+
+
+
+
+
